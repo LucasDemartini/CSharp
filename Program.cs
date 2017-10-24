@@ -6,7 +6,13 @@ namespace console_dotnet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            String nome;
+            nome = "Contabilidade";
+            Console.WriteLine(nome);
+
+            Calcsoma o = new Calcsoma();
+            System.Console.WriteLine(o.comissao(67, 80));
+            o.avalicao();
         }
     }
 }
