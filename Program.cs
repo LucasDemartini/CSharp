@@ -4,7 +4,10 @@ namespace console_dotnet
 {
     class Program
     {       
-        Verifica v = new Verifica();
-        v.geranumero(1, 9);
+        static void Main(string[] args)
+        {
+           Verifica v = new Verifica();
+           v.geranumero(0, 10);  
+        }
     }
 }
